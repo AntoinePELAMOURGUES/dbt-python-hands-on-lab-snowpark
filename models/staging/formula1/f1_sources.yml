@@ -147,12 +147,6 @@ sources:
             description: Unique identifier for the race
           - name: driver_id
             description: Unique identifier for the driver
-          - name: stop
-            description: Sequential number of the pit stop for the driver in the race
-            tests:
-              - accepted_values:
-                  values: [1,2,3,4,5,6,7,8]
-                  quote: false    
           - name: lap
             description: Lap number during which the pit stop occurred
           - name: time
